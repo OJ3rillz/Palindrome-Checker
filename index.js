@@ -1,6 +1,6 @@
 function palindrome(str) {
     let letters = [];
-    let regix = ReqExp('[]', 'g');
+    let regix = ReqExp('[^a-zA-Z0-9]', 'g');
 
 // remove special characters, while spaces and punctuation
 str = str.replace(regix, '');
