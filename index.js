@@ -23,6 +23,4 @@ if(str === newStr) {
   }
 }
     
-    
-    
-    palindrome("eye");
+palindrome("eye");
